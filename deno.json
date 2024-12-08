@@ -5,6 +5,7 @@
   "version": "0.3.0",
   "imports": {
     "@inquirer/prompts": "npm:@inquirer/prompts@^7.2.0",
+    "@std/cli": "jsr:@std/cli@^1.0.8",
     "@std/fs": "jsr:@std/fs@^1.0.6"
   },
   "compilerOptions": {

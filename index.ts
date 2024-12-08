@@ -188,8 +188,6 @@ async function main() {
   console.log(`Configuration written at path ${path}.`);
 }
 
-if (import.meta.main) {
-  await main().catch(error => {
-    console.error(error);
-  });
-}
+await main().catch(error => {
+  console.error(error);
+});

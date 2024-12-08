@@ -2,7 +2,7 @@
   "name": "@aminnairi/tsconfig",
   "license": "MIT",
   "exports": "./index.ts",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "imports": {
     "@inquirer/prompts": "npm:@inquirer/prompts@^7.2.0",
     "@std/fs": "jsr:@std/fs@^1.0.6"

@@ -1,0 +1,31 @@
+{
+  "name": "@aminnairi/tsconfig",
+  "license": "MIT",
+  "exports": "./index.ts",
+  "version": "0.1.0",
+  "imports": {
+    "@inquirer/prompts": "npm:@inquirer/prompts@^7.2.0",
+    "@std/fs": "jsr:@std/fs@^1.0.6"
+  },
+  "compilerOptions": {
+    "allowUnusedLabels": true,
+    "exactOptionalPropertyTypes": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strict": true,
+    "strictBindCallApply": true,
+    "strictBuiltinIteratorReturn": true,
+    "strictFunctionTypes": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true,
+    "useUnknownInCatchVariables": true,
+    "noErrorTruncation": true
+  }
+}

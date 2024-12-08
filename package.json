@@ -1,0 +1,8 @@
+{
+  "name": "@aminnairi/tsconfig",
+  "version": "0.1.0",
+  "exports": "./index.ts",
+  "dependencies": {
+    "@inquirer/prompts": "^7.2.0"
+  }
+}
